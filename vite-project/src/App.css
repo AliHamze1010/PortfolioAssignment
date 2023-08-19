@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap'); /* Importing Montserrat, a modern typeface */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #1B1B2F; 
+  color: #EAEAEA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  background: #2C2C44; 
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  margin: 5% auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #E58F65; 
+  text-decoration: none;
+  transition: color 0.2s;
+  font-weight: 600; 
+}
+
+.navbar a:hover {
+  color: #BF6C58; 
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3.5em; 
+  color: #E58F65;
+}
+
+header p {
+  font-size: 1.4em;
+  margin-top: 10px;
+}
+
+section h2 {
+  margin-top: 20px;
+  font-size: 2.5em; 
+  color: #EAEAEA;
+}
+
+p {
+  line-height: 1.7; 
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #3A3A55; 
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  color: #E58F65; 
+  transition: background 0.2s;
+}
+
+.skills-list li:hover {
+  background: #2C2C44; 
+}
+
+.portfolio-image {
+  max-width: 70%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none; 
+  background: #3A3A55; 
+  border-radius: 5px;
+  color: #EAEAEA;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #E58F65; 
+  color: #EAEAEA;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #BF6C58;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
